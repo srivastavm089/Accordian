@@ -33,17 +33,28 @@
     margin-left: 50vh;
     display: none;
     position: relative;
-    transition: all 2s;
+    
   
 }
-.top-line{
+
+.top-line::after{
+    content: "";
     position: absolute;
-    border: 1px solid green;
-    top: 0;
     left: 0;
-    width: 0px;
-    transition: all 2s;
+    top: 0;
+       
+        border: 2px solid green;
+        animation: borderline 1s linear forwards;
 }
+@keyframes borderline {
+    0%{
+        width:1vh
+    }
+    100%{
+        width:54vh;
+    }
+}
+
 .complete-detail{
     display: flex;
     justify-content: space-between;
