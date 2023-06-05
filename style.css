@@ -1,0 +1,53 @@
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    width: 50vh;
+    box-shadow: 1px 1px 1px 1px rgb(241, 236, 236);
+    padding: 2vh;
+    cursor: pointer;
+    margin-left: 50vh;
+    color: blue;
+    margin-top: 5vh;
+    transition: all 5s;
+}
+.line-num{
+    margin-right: 2vh;
+   color: blue;
+}
+.line-num-par{
+    color: blue;
+}
+.Close{
+  color: red;
+  cursor: pointer;
+
+}
+.detail_parent{
+    margin-top: 5vh;
+    width: 50vh;
+    box-shadow: 1px 1px 1px 1px rgb(241, 236, 236);
+    height: 15vh;
+    line-height: 4vh;
+    padding: 2vh;
+    margin-left: 50vh;
+    display: none;
+    position: relative;
+    transition: all 2s;
+  
+}
+.top-line{
+    position: absolute;
+    border: 1px solid green;
+    top: 0;
+    left: 0;
+    width: 0px;
+    transition: all 2s;
+}
+.complete-detail{
+    display: flex;
+    justify-content: space-between;
+
+
+    
+}
